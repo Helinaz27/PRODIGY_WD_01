@@ -1,0 +1,1 @@
+ This landing page showcases various features of a deliverysite, providing users with information about diverse menu options. It's built using HTML, CSS, and JavaScript, offering an engaging and interactive experience.

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>EatsOnWheels</title>
+  </head>
+  <body>
+    <a href="#" class="scrollTop show-scroll" id="scroll-top">
+      <i class="bx bx-chevron-up scrollTop_icon"></i>
+    </a>
+
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <b>Eats<span>OnWheels</span></b>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+            <li class="nav_item"><a href="#about" class="nav_link">About Us</a></li>
+            <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
+            <li class="nav_item"><a href="#menu" class="nav_link">Menu</a></li>
+            <li class="nav_item"><a href="#contact" class="nav_link">Contact Us</a></li>
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+        <div class="nav_toggle" id="nav-toggle">
+          <button
+            class="menu"
+            aria-label="Open Menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          >
+            <svg width="40" height="41" viewBox="0 0 100 100">
+              <path
+                class="line line1"
+                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+              />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path
+                class="line line3"
+                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">Delicious Meals</h1>
+            <h2 class="home_subtitle">Delivered Fresh to Your Doorstep</h2>
+            <a href="#menu" class="button">Order Now</a>
+          </div>
+          <img
+            src="assets/img/home.png"
+            alt="Delicious food"
+            class="home_img"
+          />
+        </div>
+      </section>
+
+      <section class="about section bd-container" id="about">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            <span class="section-subtitle about_initial">About Us</span>
+            <h2 class="section-title about_initial">
+              Bringing Quality Food to Your Doorstep
+            </h2>
+            <p class="about_description">
+              At EatsOnWheels, we are dedicated to delivering high-quality meals from your favorite restaurants with the utmost care and speed.
+            </p>
+            <a href="#contact" class="button">Get Started!</a>
+          </div>
+          <img
+            src="assets/img/about.jpg"
+            alt="Fresh ingredients"
+            class="about_img"
+          />
+        </div>
+      </section>
+
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">Our Offerings</span>
+        <h2 class="section-title">What We Do Best</h2>
+        <div class="services_container bd-grid">
+          <div class="services_content">
+            <img src="assets/img/plate.png" alt="Quality Food" class="services_img">
+            <h3 class="services_title">High-Quality Meals</h3>
+            <p class="services_description">Enjoy freshly prepared dishes from top restaurants.</p>
+          </div>
+          <div class="services_content">
+            <img src="assets/img/truck.png" alt="Fast Delivery" class="services_img">
+            <h3 class="services_title">Prompt Delivery</h3>
+            <p class="services_description">Experience fast and reliable delivery to your door.</p>
+          </div>
+          <div class="services_content">
+            <img src="assets/img/pizza.png" alt="Diverse Menu" class="services_img">
+            <h3 class="services_title">Varied Menu</h3>
+            <p class="services_description">Choose from a wide range of delicious food options.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu section bd-container" id="menu">
+        <span class="section-subtitle">Today's Special</span>
+        <h2 class="section-title">Featured Dishes</h2>
+        <div class="menu_container bd-grid">
+          <div class="menu_content">
+            <img src="assets/img/plate1.png" alt="Rolls" class="menu_img" />
+            <h3 class="menu_name">Rolls</h3>
+            <span class="menu_detail">Delicious Rolls</span>
+            <span class="menu_price">₹99.00 / 600 ETB</span>
+            <a href="#" class="button menu_button">
+              <i class="bx bx-cart"></i>
+            </a>
+          </div>
+          <div class="menu_content">
+            <img src="assets/img/plate2.png" alt="Idli" class="menu_img" />
+            <h3 class="menu_name">Idli</h3>
+            <span class="menu_detail">Traditional Dish</span>
+            <span class="menu_price">₹159.00 / 950 ETB</span>
+            <a href="#" class="button menu_button">
+              <i class="bx bx-cart"></i>
+            </a>
+          </div>
+          <div class="menu_content">
+            <img src="assets/img/plate3.png" alt="Pizza" class="menu_img" />
+            <h3 class="menu_name">Pizza</h3>
+            <span class="menu_detail">Classic Italian</span>
+            <span class="menu_price">₹199.00 / 1,200 ETB</span>
+            <a href="#" class="button menu_button">
+              <i class="bx bx-cart"></i>
+            </a>
+          </div>
+          <div class="menu_content">
+            <img src="assets/img/plate4.png" alt="Paneer" class="menu_img" />
+            <h3 class="menu_name">Paneer</h3>
+            <span class="menu_detail">Creamy Delight</span>
+            <span class="menu_price">₹169.00 / 1,000 ETB</span>
+            <a href="#" class="button menu_button">
+              <i class="bx bx-cart"></i>
+            </a>
+          </div>
+          <div class="menu_content">
+            <img src="assets/img/plate5.png" alt="Burger" class="menu_img" />
+            <h3 class="menu_name">Burger</h3>
+            <span class="menu_detail">Juicy Burger</span>
+            <span class="menu_price">₹79.00 / 500 ETB</span>
+            <a href="#" class="button menu_button">
+              <i class="bx bx-cart"></i>
+            </a>
+          </div>
+          <div class="menu_content">
+            <img src="assets/img/plate6.png" alt="Ice Cream" class="menu_img" />
+            <h3 class="menu_name">Ice Cream</h3>
+            <span class="menu_detail">Sweet Treat</span>
+            <span class="menu_price">₹49.00 / 300 ETB</span>
+            <a href="#" class="button menu_button">
+              <i class="bx bx-cart"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section bd-container" id="contact">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+        <form class="contact_form">
+          <div class="contact_form-group">
+            <label for="name" class="contact_form-label">Name</label>
+            <input type="text" id="name" class="contact_form-input" required />
+          </div>
+          <div class="contact_form-group">
+            <label for="email" class="contact_form-label">Email</label>
+            <input type="email" id="email" class="contact_form-input" required />
+          </div>
+          <div class="contact_form-group">
+            <label for="message" class="contact_form-label">Message</label>
+            <textarea id="message" class="contact_form-textarea" required></textarea>
+          </div>
+          <button type="submit" class="button contact_button">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_container bd-container">
+        <div class="footer_content">
+          <b>Eats<span>OnWheels</span></b>
+          <ul class="footer_social">
+            <li><a href="https://github.com/Helinaz27" class="footer_social-link">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/helina-zeleke/" class="footer_social-link">LinkedIn</a></li>
+          </ul>
+        </div>
+        <p class="footer_copy">© 2024 EatsOnWheels. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
